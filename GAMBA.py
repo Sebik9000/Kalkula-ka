@@ -21,7 +21,7 @@ def mocniny(cislo1, cislo2):
 def pozdrav():
     print("Vítejte v kalkulačce, pokud chcete program ukončit napište 'konec' do operace.")
 
-print(pozdrav())
+pozdrav()
 while True:
     cislo1 = float(input("Zadej první číslo:"))
     cislo2 = float(input("Zadej druhé číslo:"))
