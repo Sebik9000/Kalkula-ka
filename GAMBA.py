@@ -1,5 +1,21 @@
+def secti(cislo1, cislo2):
+  return (cislo1 + cislo2)
+
+def odecti(cislo1, cislo2):
+  return (cislo1 - cislo2)
+
+def nasob(cislo1, cislo2):
+  return (cislo1 * cislo2)
+
+def deleni(cislo1, cislo2):
+  return (cislo1 / cislo2)
+
+def mocniny(cislo1, cislo2):
+  return (cislo1 ** cislo2)
+
 def pozdrav():
     print("Vítejte v kalkulačce, pokud chcete program ukončit napište 'konec' do operace.")
+
 while True:
   cislo1 = float(input("Zadej první číslo:" ))
   cislo2 = float(input("Zadej druhé číslo:" ))
