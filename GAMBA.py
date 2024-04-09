@@ -1,4 +1,5 @@
-print("Vítejte v kalkulačce, pokud chcete program ukončit napište 'konec' do operace.")
+def pozdrav():
+    print("Vítejte v kalkulačce, pokud chcete program ukončit napište 'konec' do operace.")
 while True:
   cislo1 = float(input("Zadej první číslo:" ))
   cislo2 = float(input("Zadej druhé číslo:" ))
